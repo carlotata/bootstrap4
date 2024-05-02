@@ -10,6 +10,7 @@ function Note(){
     document.getElementById('note').value = '';
     document.getElementById('date').value = '';
 }
+
 function deleteNote(button){
     button.closest('.card').remove();
 }
